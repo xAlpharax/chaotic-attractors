@@ -1,8 +1,7 @@
-#pragma once
 #include <SFML/Graphics.hpp>
+#include <initializer_list>
 #include <iostream>
 #include <assert.h>
-#include <initializer_list>
 #include <math.h>
 
 /////////////////////
@@ -115,7 +114,9 @@ public:
 		delete[] m_data;
 	}
 };
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 template<typename T>
 std::ostream& operator<<(std::ostream &out, Matrix3<T> &m)
 {
@@ -128,7 +129,9 @@ std::ostream& operator<<(std::ostream &out, Matrix3<T> &m)
 
 	return out;
 }
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 template<typename T>
 bool operator==(Matrix3<T> m1, Matrix3<T> m2)
 {
@@ -154,7 +157,9 @@ bool operator!=(Matrix3<T> m1, Matrix3<T> m2)
 		return false;
 	else return true;
 }
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 template<typename T>
 Matrix3<T> operator+(const Matrix3<T> &left, const Matrix3<T> &right)
 {
@@ -172,7 +177,9 @@ Matrix3<T>& operator+=(Matrix3<T> &left, const Matrix3<T> &right)
 
 	return left;
 }
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 template<typename T>
 Matrix3<T> operator-(const Matrix3<T> &left, const Matrix3<T> &right)
 {
@@ -200,7 +207,9 @@ Matrix3<T>& operator-(Matrix3<T> &left)
 
 	return left;
 }
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 template<typename T, typename U>
 Matrix3<T>& operator*=(Matrix3<T> &left, const U &right)
 {
@@ -245,6 +254,7 @@ Matrix3<T> operator*(Matrix3<T> &left, Matrix3<T> &right)
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 template<typename T, typename U>
 Matrix3<T>& operator/=(Matrix3<T> &left, U right)
 {
@@ -261,6 +271,7 @@ Matrix3<T> operator/(Matrix3<T> left, U right)
 		{left[1][0] / right, left[1][1] / right, left[1][2] / right},
 		{left[2][0] / right, left[2][1] / right, left[2][2] / right} };
 }
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /////////////////////

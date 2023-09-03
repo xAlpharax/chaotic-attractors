@@ -3,7 +3,7 @@
 LorenzAttractor::LorenzAttractor()
 {
 	// Text
-	font.loadFromFile("/usr/share/fontforge/pixmaps/Inconsolata-Regular.ttf");
+	font.loadFromFile("./Inconsolata-Regular.ttf");
 	text.setFont(font);
 	text.setString(names[u]);
 	text.setScale(0.1f, 0.1f);

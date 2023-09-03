@@ -4,7 +4,7 @@ Visualize and experiment with Chaos Equations and Strange Attractors.
 
 This repo consists of a fork of [this repository](https://github.com/orfeasliossatos/Coding-Projects) which was tweaked and ported to Linux.
 
-[Video demonstration](https://youtu.be/idpOunnpKTo?si=GenFkDGUzg6Co1Zy) (from the original creator): https://youtu.be/idpOunnpKTo?si=GenFkDGUzg6Co1Zy
+[Video demonstration](https://youtu.be/idpOunnpKTo?si=GenFkDGUzg6Co1Zy) (from the [original creator](https://github.com/orfeasliossatos))
 
 ## Requirements
 
@@ -12,20 +12,38 @@ This project uses SFML. You may easily find SFML and SFML-devel in your package 
 
 ## Usage
 
-Run `./run.sh` to compile and execute the program.
+To compile and execute the program do:
+
+```bash
+./run.sh
+```
 
 ### Controls
 
-H to switch to the next attractor
+Intuitive "Minecraft" controls. "H" and "h" act the same.
 
-W/A/S/D for moving in the plane
+> W/A/S/D for moving in the plane
+>
+> Space/Shift to move up and down
+>
+> Up/Down/Left/Right to turn the camera
 
-Space/Shift to move up and down
+Or as [AnonymoZ](https://github.com/AnonymoZ) put it:
 
-Up/Down/Left/Right to turn the camera
+> Move to the next attractor with “H” and to the previous attractor with “G”.
+>
+> Press “Page Up” and “Page Down” now to control the speed of the motion.
+>
+> Use the Arrow Keys, “W, A, S, D” and also “LShift and Space” to move the camera.
+>
+> The Arrow Keys will only tilt the camera angle, while “LShift”, “Space”, “A” and “D” move “↑”, “↓”, “←”, “→” respectively.
+>
+> And finally “W” and “S” zoom in and out of the canvas.
+>
+> Press “Esc” to exit the program.
+>
+> Change to fullscreen or not with “F”.
 
-These will feel familiar to Minecraft players ;)
+### Cool thing
 
-### Todo:
-
-Pick a font that every distro ships.
+![Image](https://cdn.discordapp.com/attachments/663775769293750302/1148043114414620753/image.png)

@@ -1,8 +1,9 @@
+#include <SFML/Graphics.hpp>
+
 #include "vectormath.h"
 
-#include <random>
 #include <string>
-#include <SFML/Graphics.hpp>
+#include <random>
 
 class LorenzAttractor
 {
@@ -47,7 +48,7 @@ private:
 	std::vector<std::vector<float>> trail_colours_params;
 
 	// Visual parameters
-	unsigned num_points = 300;
+	unsigned num_points = 500;
 	unsigned trail_length = 100;
 	float speed = 1.f;
 
