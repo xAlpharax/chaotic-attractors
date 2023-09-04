@@ -12,7 +12,7 @@ This project uses SFML. You may easily find SFML and SFML-devel in your package 
 
 ## Usage
 
-To compile and execute the program do:
+To compile and execute the program:
 
 ```bash
 ./run.sh
@@ -44,6 +44,6 @@ Or as [AnonymoZ](https://github.com/AnonymoZ) put it:
 >
 > Change to fullscreen or not with “F”.
 
-### Cool thing
+### Cool stuff
 
 ![Image](https://cdn.discordapp.com/attachments/663775769293750302/1148043114414620753/image.png)
