@@ -46,4 +46,4 @@ Or as [AnonymoZ](https://github.com/AnonymoZ) put it:
 
 ### Cool stuff
 
-![Image](https://cdn.discordapp.com/attachments/663775769293750302/1148043114414620753/image.png)
+![image](https://github.com/user-attachments/assets/6e469ba7-7cb6-450b-9add-6ece4763a81a)
